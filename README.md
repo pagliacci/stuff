@@ -1,5 +1,5 @@
-# some_tools
-This repo contains tools, materials, interesting articles that can be useful for penetration testing or smth.
+# README
+This repo contains some interesting stuff that can be useful for penetration testing or smth.
 
 ###Tools
 1. Windows utility that exposes the LM and NTLM password hashes of local user accounts from the Security Account Manager (SAM) 
