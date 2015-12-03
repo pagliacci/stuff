@@ -1,7 +1,11 @@
 # some_tools
-This repo contains tools that can be useful for penetration testing or smth.
+This repo contains tools, materials, interesting articles that can be useful for penetration testing or smth.
 
-##Links on useful tools
-==============================================================================================================================
+###Tools
 1. Windows utility that exposes the LM and NTLM password hashes of local user accounts from the Security Account Manager (SAM) 
-Link (https://drive.google.com/file/d/0BwlY_rY5y7-DWEpTSVBqUndnNWM/view?usp=sharing)
+[Download] (https://drive.google.com/file/d/0BwlY_rY5y7-DWEpTSVBqUndnNWM/view?usp=sharing)
+[Wiki] (https://en.wikipedia.org/wiki/Pwdump)
+
+###Articles
+1. Basic Linux privelege escalation.
+[Read] (https://blog.g0tmi1k.com/2011/08/basic-linux-privilege-escalation/)
