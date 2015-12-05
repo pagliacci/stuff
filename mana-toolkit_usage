@@ -1,0 +1,23 @@
+===========================================================================================
+Some experience of mana toolkit usage.
+(now in contains only basics and will be updated in the process of research)
+-------------------------------------------------------------------------------------------
+Used sources:
+“Mana” by Dominic White (singe) & Ian de Villiers
+mana-toolkit project GitHub: https://github.com/sensepost/mana
+https://cyberarms.wordpress.com/2014/10/16/mana-tutorial-the-intelligent-rogue-wi-fi-router/
+============================================================================================
+Mana creates Rouge AP device.
+It listens for computers and mobile devices to beacon for preferred Wi-Fi networks, 
+and then it can impersonate that device.
+
+Tutorial:
+
+1. apt-get install mana-toolkit   //to install mana
+2. mana is installed in: /usr/share/mana-toolkit directory
+3. config files are in:  /etc/mana-toolkit
+4. logs in:              /var/lib/mana-toolkit
+5. To start mana, we need to go to /usr/share/mana-toolkit/run-mana
+6. for ex: ./start-nat-full.sh 
+7. to check captured sessions we need to run ./firelamb-view.sh and choose an id.
+
