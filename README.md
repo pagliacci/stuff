@@ -7,6 +7,8 @@ This repo contains some interesting stuff that can be useful for penetration tes
 [Wiki] (https://en.wikipedia.org/wiki/Pwdump)
 2. WCE (Windows Credential Editor) - security tool that allows one to perform several attacks to obtain clear text passwords and hashes from a compromised Windows host.
 [Download] (https://www.dropbox.com/s/lncton1vtm3fwzp/wce_v1_3beta.zip?dl=0)
+3. Plink - SSH client for Windows.
+[Download] (https://www.dropbox.com/s/g42q3pkrlioym75/plink.exe?dl=0)
 
 ###Articles
 1. Basic Linux privelege escalation.
