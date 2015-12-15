@@ -14,8 +14,10 @@ This repo contains some interesting stuff that can be useful for penetration tes
 
 ####Post Exploitation Tools
 1. **rinetd** - Port forwarding tool
-* Usage: /etc/rinetd.conf
-* change bind address, bind port, connect address, connect port, than restart as a service (/etc/init.d/rinetd restart)
+'''
+Usage: /etc/rinetd.conf
+change bind address, bind port, connect address, connect port, than restart as a service (/etc/init.d/rinetd restart)
+'''
 
 ####Password attacks
 1. pwdump - Windows utility that exposes the LM and NTLM password hashes of local user accounts from the Security Account Manager (SAM) 
