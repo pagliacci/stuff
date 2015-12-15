@@ -13,9 +13,9 @@ This repo contains some interesting stuff that can be useful for penetration tes
 7. [enum4linux] (http://tools.kali.org/information-gathering/enum4linux) - tool for enumerating data from Windows and Samba hosts.
 
 ####Post Exploitation Tools
-1. rinetd - Port forwarding tool
-Usage: /etc/rinetd.conf
-change bind address, bind port, connect address, connect port, than restart as a service (/etc/init.d/rinetd restart)
+1. **rinetd** - Port forwarding tool
+* Usage: /etc/rinetd.conf
+* change bind address, bind port, connect address, connect port, than restart as a service (/etc/init.d/rinetd restart)
 
 ####Password attacks
 1. pwdump - Windows utility that exposes the LM and NTLM password hashes of local user accounts from the Security Account Manager (SAM) 
