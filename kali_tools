@@ -1,6 +1,0 @@
-========================================================================================
-List of tools that can be found on Kali machine or can be easily installed (apt-get).
-=======================================================================================
-1. rinetd - Port forwarding tool
-Usage: /etc/rinetd.conf
-change bind address, bind port, connect address, connect port, than restart as a service (/etc/init.d/rinetd restart)
