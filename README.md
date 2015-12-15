@@ -4,13 +4,18 @@ This repo contains some interesting stuff that can be useful for penetration tes
 ###Tools
 
 ####Information Gathering
-1. [theHarvester] (http://tools.kali.org/information-gathering/theharvester) - tool used to gather emails, subdomains, hosts, employee names, open ports and banners from different public sources like search engines, PGP key servers and SHODAN computer database. (installed in Kali) 
-2. [fierce] (http://tools.kali.org/information-gathering/fierce) - a reconnaissance tool. Fierce is a PERL script that quickly scans domains (usually in just a few minutes, assuming no network lag) using several tactics. (installed in Kali)
-3. [dnsmap] (http://tools.kali.org/information-gathering/dnsmap) - sub-domain enumeration tool. (installed in Kali) 
-4. [searchsploit] (http://tools.kali.org/information-gathering/exploitdb) - utility to search the Exploit Database archive. (installed in Kali)
-5. [dnsenum] (http://tools.kali.org/information-gathering/dnsenum) - script to enumerate DNS information (installed in Kali)
-6. [DNSRecon] (http://tools.kali.org/information-gathering/dnsrecon) - one more DNS enumeration script (installed in Kali)
-7. [enum4linux] (http://tools.kali.org/information-gathering/enum4linux) - tool for enumerating data from Windows and Samba hosts (installed in Kali)
+1. [theHarvester] (http://tools.kali.org/information-gathering/theharvester) - tool used to gather emails, subdomains, hosts, employee names, open ports and banners from different public sources like search engines, PGP key servers and SHODAN computer database.
+2. [fierce] (http://tools.kali.org/information-gathering/fierce) - a reconnaissance tool. Fierce is a PERL script that quickly scans domains (usually in just a few minutes, assuming no network lag) using several tactics.
+3. [dnsmap] (http://tools.kali.org/information-gathering/dnsmap) - sub-domain enumeration tool.
+4. [searchsploit] (http://tools.kali.org/information-gathering/exploitdb) - utility to search the Exploit Database archive.
+5. [dnsenum] (http://tools.kali.org/information-gathering/dnsenum) - script to enumerate DNS information.
+6. [DNSRecon] (http://tools.kali.org/information-gathering/dnsrecon) - one more DNS enumeration script.
+7. [enum4linux] (http://tools.kali.org/information-gathering/enum4linux) - tool for enumerating data from Windows and Samba hosts.
+
+####Post Exploitation Tools
+1. rinetd - Port forwarding tool
+Usage: /etc/rinetd.conf
+change bind address, bind port, connect address, connect port, than restart as a service (/etc/init.d/rinetd restart)
 
 ####Password attacks
 1. pwdump - Windows utility that exposes the LM and NTLM password hashes of local user accounts from the Security Account Manager (SAM) 
