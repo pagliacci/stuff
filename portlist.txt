@@ -1,0 +1,4 @@
+22 - ssh
+80 - tcp
+443 - https
+3306 - mysql
