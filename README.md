@@ -1,5 +1,5 @@
 # README
-This repo contains some interesting stuff that can be useful for penetration testing or smth.
+This repo contains some interesting stuff including tools, cheatsheets, articles that can be useful for penetration testing or smth.
 
 ###Tools
 
