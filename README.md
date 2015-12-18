@@ -33,3 +33,5 @@ change bind address, bind port, connect address, connect port, than restart as a
 ###Articles
 1. Basic Linux privelege escalation.
 [Read] (https://blog.g0tmi1k.com/2011/08/basic-linux-privilege-escalation/)
+2. MSSQLi Cheatsheet
+[Read] (https://www.exploit-db.com/papers/12975/)
