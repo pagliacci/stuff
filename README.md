@@ -17,15 +17,16 @@ This repo contains some interesting stuff including tools, cheatsheets, articles
 
 ####Post Exploitation
 1. **rinetd** - Port forwarding tool
-  ```
-  Usage: /etc/rinetd.conf
-  change bind address, bind port, connect address, connect port, than restart as a service (/etc/init.d/rinetd restart)
-  ```
+```
+Usage: /etc/rinetd.conf
+change bind address, bind port, connect address, connect port, than restart as a service (/etc/init.d/rinetd restart)
+```
+
 2. **Web server default log directories for log poisoning and LFI**
-  ```
-  /etc/httpd/logs/access_log - Apache/2.4.6 (CentOS)
-  /etc/httpd/logs/error_log - Apache/2.4.6 (CentOS)
-  ```
+```
+/etc/httpd/logs/access_log - Apache/2.4.6 (CentOS)
+/etc/httpd/logs/error_log - Apache/2.4.6 (CentOS)
+```
 
 ####Password attacks
 1. pwdump - Windows utility that exposes the LM and NTLM password hashes of local user accounts from the Security Account Manager (SAM) 
