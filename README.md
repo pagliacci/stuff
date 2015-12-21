@@ -25,6 +25,7 @@ change bind address, bind port, connect address, connect port, than restart as a
 ```
 /etc/httpd/logs/access_log - Apache/2.4.6 (CentOS)
 /etc/httpd/logs/error_log - Apache/2.4.6 (CentOS)
+```
 
 ####Password attacks
 1. pwdump - Windows utility that exposes the LM and NTLM password hashes of local user accounts from the Security Account Manager (SAM) 
