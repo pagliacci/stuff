@@ -13,7 +13,7 @@ This repo contains some interesting stuff including tools, cheatsheets, articles
 7. [enum4linux] (http://tools.kali.org/information-gathering/enum4linux) - tool for enumerating data from Windows and Samba hosts.
 8. [BlindElephant.py] (http://tools.kali.org/web-applications/blindelephant) - tool for web application fingerprinting
 9. **metasploit** modules:
-   *[auxiliary/scanner/netbios/nbname] (https://www.offensive-security.com/metasploit-unleashed/scanner-netbios-auxiliary-modules/) - to enumerate host name
+   * [auxiliary/scanner/netbios/nbname] (https://www.offensive-security.com/metasploit-unleashed/scanner-netbios-auxiliary-modules/) - to enumerate host name
 
 ####Post Exploitation Tools
 1. **rinetd** - Port forwarding tool
