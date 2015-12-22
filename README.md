@@ -15,7 +15,7 @@ This repo contains some interesting stuff including tools, cheatsheets, articles
 * **metasploit** modules:
    * [auxiliary/scanner/netbios/nbname] (https://www.offensive-security.com/metasploit-unleashed/scanner-netbios-auxiliary-modules/) - to enumerate host name
 
-####Post Exploitation
+####Exploitation
 * **rinetd** - Port forwarding tool
 ```
 Usage: /etc/rinetd.conf
@@ -26,6 +26,13 @@ change bind address, bind port, connect address, connect port, than restart as a
 ```
 /etc/httpd/logs/access_log - Apache/2.4.6 (CentOS)
 /etc/httpd/logs/error_log - Apache/2.4.6 (CentOS)
+```
+* **Metasploit modules/payloads:**
+```
+exploit/multi/handler - module that can accept various incoming payloads
+linux/x86/shell/reverse_tcp - STAGED reverse tcp shell for Linux
+linux/x86/shell_reverse_tcp - NON-STAGED reverse tcp shell for Linux
+windows/meterpreter/reverse_https - meterpreter that looks like https traffic
 ```
 
 ####Password attacks
