@@ -35,6 +35,12 @@ linux/x86/shell_reverse_tcp - NON-STAGED reverse tcp shell for Linux
 windows/meterpreter/reverse_https - meterpreter that looks like https traffic
 ```
 
+####Post Exploitation
+* **Metasploit modules/payloads:**
+```
+post/windows/gather/credentials/gpp - Windows Gather Group Policy Preference Saved Passwords
+```
+
 ####Password attacks
 * pwdump - Windows utility that exposes the LM and NTLM password hashes of local user accounts from the Security Account Manager (SAM) 
 [Download] (https://www.dropbox.com/s/ixs1ac0xgl245ea/pwdump.zip?dl=0) //
@@ -46,8 +52,10 @@ windows/meterpreter/reverse_https - meterpreter that looks like https traffic
 * Plink - console SSH client for Windows.
 [Download] (https://www.dropbox.com/s/g42q3pkrlioym75/plink.exe?dl=0)
 
-###Articles
+####Articles
 * Basic Linux privelege escalation.
 [Read] (https://blog.g0tmi1k.com/2011/08/basic-linux-privilege-escalation/)
+* Windows Privilege Escalation Fundamentals
+[Read] (http://www.fuzzysecurity.com/tutorials/16.html)
 * MSSQLi Cheatsheet
 [Read] (https://www.exploit-db.com/papers/12975/)
