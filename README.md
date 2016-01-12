@@ -14,6 +14,7 @@ This repo contains some interesting stuff including tools, cheatsheets, articles
 * [DNSRecon] (http://tools.kali.org/information-gathering/dnsrecon) - one more DNS enumeration script.
 * [enum4linux] (http://tools.kali.org/information-gathering/enum4linux) - tool for enumerating data from Windows and Samba hosts.
 * [BlindElephant.py] (http://tools.kali.org/web-applications/blindelephant) - tool for web application fingerprinting
+* [myip.ms] (https://myip.ms/) - whois lookup with OS and Browser fingerprint
 * **Metasploit** modules:
    * [auxiliary/scanner/netbios/nbname] (https://www.offensive-security.com/metasploit-unleashed/scanner-netbios-auxiliary-modules/) - to enumerate host name
 
