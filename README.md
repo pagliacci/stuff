@@ -6,6 +6,8 @@ This repo contains some interesting stuff including tools, cheatsheets, articles
 ####Information Gathering
 * [theHarvester] (http://tools.kali.org/information-gathering/theharvester) - tool used to gather emails, subdomains, hosts, employee names, open ports and banners from different public sources like search engines, PGP key servers and SHODAN computer database.
 * [fierce] (http://tools.kali.org/information-gathering/fierce) - a reconnaissance tool. Fierce is a PERL script that quickly scans domains (usually in just a few minutes, assuming no network lag) using several tactics.
+* [nikto] 
+* [skipfish] (http://tools.kali.org/web-applications/skipfish) - an active web application security reconnaissance tool.
 * [dnsmap] (http://tools.kali.org/information-gathering/dnsmap) - sub-domain enumeration tool.
 * [searchsploit] (http://tools.kali.org/information-gathering/exploitdb) - utility to search the Exploit Database archive.
 * [dnsenum] (http://tools.kali.org/information-gathering/dnsenum) - script to enumerate DNS information.
