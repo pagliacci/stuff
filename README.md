@@ -69,4 +69,5 @@ mimikatz # sekurlsa::logonpasswords
 [Read] (https://www.exploit-db.com/papers/12975/)
 
 ####Labs
-*
+https://exploit-exercises.com/ - Good Linux privilege escalation labs.
+
