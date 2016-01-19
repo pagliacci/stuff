@@ -45,11 +45,16 @@ post/windows/gather/credentials/gpp - Windows Gather Group Policy Preference Sav
 ```
 
 ####Password attacks
-* pwdump - Windows utility that exposes the LM and NTLM password hashes of local user accounts from the Security Account Manager (SAM) 
+* pwdump - Windows utility that exposes the LM and NTLM password hashes of local user accounts from the Security Account Manager (SAM)
 [Download] (https://www.dropbox.com/s/ixs1ac0xgl245ea/pwdump.zip?dl=0) //
 [Wiki] (https://en.wikipedia.org/wiki/Pwdump)
 * WCE (Windows Credential Editor) - security tool that allows one to perform several attacks to obtain clear text passwords and hashes from a compromised Windows host.
 [Download] (https://www.dropbox.com/s/lncton1vtm3fwzp/wce_v1_3beta.zip?dl=0)
+* mimikatz - tool to extract plaintext passwords, hashes, pin codes and kerberos tickets. [Download] (https://github.com/gentilkiwi/mimikatz/releases/tag/2.1.0-alpha-20160117)
+```
+mimikatz # privilege::debug
+mimikatz # sekurlsa::logonpasswords
+```
 
 ####Utilities
 * Plink - console SSH client for Windows.
