@@ -69,5 +69,5 @@ mimikatz # sekurlsa::logonpasswords
 [Read] (https://www.exploit-db.com/papers/12975/)
 
 ####Labs
-https://exploit-exercises.com/ - Good Linux privilege escalation labs.
+* [Exploit-Exercises] (https://exploit-exercises.com/) - a variety of virtual machines, documentation and challenges that can be used to learn about a variety of computer security issues such as privilege escalation, vulnerability analysis, exploit development, debugging, reverse engineering, and general cyber security issues.
 
