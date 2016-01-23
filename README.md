@@ -56,6 +56,9 @@ mimikatz # privilege::debug
 mimikatz # sekurlsa::logonpasswords
 ```
 
+####Password Lists
+* Passwords from Russian resources (collected by @simonuvarov)
+
 ####Utilities
 * Plink - console SSH client for Windows.
 [Download] (https://www.dropbox.com/s/g42q3pkrlioym75/plink.exe?dl=0)
