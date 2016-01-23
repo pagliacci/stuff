@@ -58,6 +58,7 @@ mimikatz # sekurlsa::logonpasswords
 
 ####Password Lists
 * Passwords from Russian resources (collected by @simonuvarov)
+ДОБАВИТЬ
 
 ####Utilities
 * Plink - console SSH client for Windows.
