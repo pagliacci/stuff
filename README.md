@@ -6,7 +6,7 @@ This repo contains some interesting stuff including tools, cheatsheets, articles
 ####Information Gathering
 * [theHarvester] (http://tools.kali.org/information-gathering/theharvester) - tool used to gather emails, subdomains, hosts, employee names, open ports and banners from different public sources like search engines, PGP key servers and SHODAN computer database.
 * [fierce] (http://tools.kali.org/information-gathering/fierce) - a reconnaissance tool. Fierce is a PERL script that quickly scans domains (usually in just a few minutes, assuming no network lag) using several tactics.
-* [nikto] 
+* [nikto] - one more web application scanner (installed in Kali)
 * [skipfish] (http://tools.kali.org/web-applications/skipfish) - an active web application security reconnaissance tool.
 * [dnsmap] (http://tools.kali.org/information-gathering/dnsmap) - sub-domain enumeration tool.
 * [searchsploit] (http://tools.kali.org/information-gathering/exploitdb) - utility to search the Exploit Database archive.
@@ -74,4 +74,9 @@ mimikatz # sekurlsa::logonpasswords
 
 ####Labs
 * [Exploit-Exercises] (https://exploit-exercises.com/) - a variety of virtual machines for learning different computer security issues such as privilege escalation, vulnerability analysis, exploit development, debugging, reverse engineering, and general cyber security issues.
+
+####Online Services
+* [TempMail] (https://temp-mail.ru/) - interesting service for creating temporary email for registration during penetration testing
+* [RecieveFreeSMS] (http://receivefreesms.com/) - service for receiving SMS during penetration testing
+* [Privatoria] (https://privatoria.net) - service with out-of-box VPN+TOR (3.9$ per month)
 
