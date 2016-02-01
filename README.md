@@ -79,4 +79,5 @@ mimikatz # sekurlsa::logonpasswords
 * [TempMail] (https://temp-mail.ru/) - interesting service for creating temporary email for registration during penetration testing
 * [RecieveFreeSMS] (http://receivefreesms.com/) - service for receiving SMS during penetration testing
 * [Privatoria] (https://privatoria.net) - service with out-of-box VPN+TOR (3.9$ per month)
+* [Censys] (https://censys.io/) - free Shodan analog
 
