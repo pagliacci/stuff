@@ -65,7 +65,7 @@ mimikatz # sekurlsa::logonpasswords
 [Download] (https://www.dropbox.com/s/g42q3pkrlioym75/plink.exe?dl=0)
 
 ####Articles
-* Basic Linux privelege escalation.
+* Basic Linux privilege escalation.
 [Read] (https://blog.g0tmi1k.com/2011/08/basic-linux-privilege-escalation/)
 * Windows Privilege Escalation Fundamentals
 [Read] (http://www.fuzzysecurity.com/tutorials/16.html)
