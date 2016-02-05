@@ -1,9 +1,9 @@
 #Some experience of mana toolkit usage.
 
 ####Used sources:
-*“Mana” by Dominic White (singe) & Ian de Villiers
+* “Mana” by Dominic White (singe) & Ian de Villiers
 mana-toolkit project GitHub: https://github.com/sensepost/mana
-*https://cyberarms.wordpress.com/2014/10/16/mana-tutorial-the-intelligent-rogue-wi-fi-router/
+* https://cyberarms.wordpress.com/2014/10/16/mana-tutorial-the-intelligent-rogue-wi-fi-router/
 
 Mana creates Rouge AP device.
 It listens for computers and mobile devices to beacon for preferred Wi-Fi networks, 
