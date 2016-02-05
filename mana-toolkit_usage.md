@@ -4,7 +4,7 @@
 “Mana” by Dominic White (singe) & Ian de Villiers
 mana-toolkit project GitHub: https://github.com/sensepost/mana
 https://cyberarms.wordpress.com/2014/10/16/mana-tutorial-the-intelligent-rogue-wi-fi-router/
-============================================================================================
+
 Mana creates Rouge AP device.
 It listens for computers and mobile devices to beacon for preferred Wi-Fi networks, 
 and then it can impersonate that device.
