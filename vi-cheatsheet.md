@@ -17,7 +17,7 @@ For those who doesn't know how to exit `vi`.
 
 `I`	Insert before line
 
-`a	Append after cursor
+`a`	Append after cursor
 
 `A`	Append after line
 
