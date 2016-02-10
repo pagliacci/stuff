@@ -58,7 +58,7 @@ mimikatz # sekurlsa::logonpasswords
 
 ####Password Lists
 * Passwords from Russian resources (collected by @simonuvarov)
-ДОБАВИТЬ
+[Download] (https://github.com/simonuvarov/password-lists)
 
 ####Utilities
 * Plink - console SSH client for Windows.
@@ -71,6 +71,10 @@ mimikatz # sekurlsa::logonpasswords
 [Read] (http://www.fuzzysecurity.com/tutorials/16.html)
 * MSSQLi Cheatsheet
 [Read] (https://www.exploit-db.com/papers/12975/)
+* Pentest Tips and Tricks, 1
+[Read] (https://jivoi.github.io/2015/07/01/pentest-tips-and-tricks/)
+* Pentest Tips and Tricks, 2
+[Read] (https://jivoi.github.io/2015/08/21/pentest-tips-and-tricks-number-2/)
 
 ####Labs
 * [Exploit-Exercises] (https://exploit-exercises.com/) - a variety of virtual machines for learning different computer security issues such as privilege escalation, vulnerability analysis, exploit development, debugging, reverse engineering, and general cyber security issues.
