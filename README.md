@@ -75,6 +75,8 @@ mimikatz # sekurlsa::logonpasswords
 [Read] (https://jivoi.github.io/2015/07/01/pentest-tips-and-tricks/)
 * Pentest Tips and Tricks, 2
 [Read] (https://jivoi.github.io/2015/08/21/pentest-tips-and-tricks-number-2/)
+* Pentest Bookmarks 
+[Read] (https://code.google.com/archive/p/pentest-bookmarks/wikis/BookmarksList.wiki)
 
 ####Labs
 * [Exploit-Exercises] (https://exploit-exercises.com/) - a variety of virtual machines for learning different computer security issues such as privilege escalation, vulnerability analysis, exploit development, debugging, reverse engineering, and general cyber security issues.
