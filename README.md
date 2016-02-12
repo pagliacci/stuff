@@ -50,11 +50,13 @@ post/windows/gather/credentials/gpp - Windows Gather Group Policy Preference Sav
 [Wiki] (https://en.wikipedia.org/wiki/Pwdump)
 * WCE (Windows Credential Editor) - security tool that allows one to perform several attacks to obtain clear text passwords and hashes from a compromised Windows host.
 [Download] (https://www.dropbox.com/s/lncton1vtm3fwzp/wce_v1_3beta.zip?dl=0)
-* mimikatz - tool to extract plaintext passwords, hashes, pin codes and kerberos tickets. [Download] (https://github.com/gentilkiwi/mimikatz/releases/tag/2.1.0-alpha-20160117)
+* mimikatz - tool to extract plaintext passwords, hashes, pin codes and kerberos tickets. [Download] (https://github.com/gentilkiwi/mimikatz/releases/)
 ```
 mimikatz # privilege::debug
 mimikatz # sekurlsa::logonpasswords
 ```
+
+* Hob0Rules - Password cracking rules for Hashcat based on statistics and industry patterns. [Download] (https://github.com/praetorian-inc/Hob0Rules)
 
 ####Password Lists
 * Passwords from Russian resources (collected by @simonuvarov)
