@@ -19,6 +19,7 @@
 
 #### Testing
 1. sudo rtl_test -t
+
 Normal behavior:
 ```
 pagliacci@anton:~$ rtl_test -t
