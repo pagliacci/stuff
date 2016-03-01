@@ -1,4 +1,5 @@
 # RTL SDR USAGE
+# [Tested on Ubuntu 15.10]
 
 #### Installation
 1. sudo apt-get update
