@@ -54,3 +54,14 @@ blacklist rtl2830
 3. eject device
 4. sudo rmmod dvb_usb_rtl28xxu rtl2832
 5. PROFIT!
+
+#### Usage
+1. git clone git://git.osmocom.org/gr-osmosdr
+2. cd gr-osmosdr/
+3. git checkout standalone
+4. mkdir build
+5. cd build/
+6. cmake ../
+7. make
+8. sudo make install
+9. sudo ldconfig
