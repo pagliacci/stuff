@@ -65,3 +65,7 @@ blacklist rtl2830
 7. make
 8. sudo make install
 9. sudo ldconfig
+
+or just 
+
+sudo apt-get install gr-osmosdr 
