@@ -79,10 +79,19 @@ mimikatz # sekurlsa::logonpasswords
 [Read] (https://jivoi.github.io/2015/08/21/pentest-tips-and-tricks-number-2/)
 * Pentest Bookmarks 
 [Read] (https://code.google.com/archive/p/pentest-bookmarks/wikis/BookmarksList.wiki)
+* Introductory Intel x86
+[Read] (http://opensecuritytraining.info/IntroX86.html)
+* Buffer Overflow Reddit Tutorial
+[Read] (https://www.reddit.com/r/hacking/comments/1wy610/exploit_tutorial_buffer_overflow/)
+* Corelan Exploit Writing Tutorial
+[Read] (https://www.corelan.be/index.php/2009/07/19/exploit-writing-tutorial-part-1-stack-based-overflows/)
+* Introduction to Software Exploits
+[Read] (http://opensecuritytraining.info/Exploits1.html)
 
 ####Labs
 * [Exploit-Exercises] (https://exploit-exercises.com/) - a variety of virtual machines for learning different computer security issues such as privilege escalation, vulnerability analysis, exploit development, debugging, reverse engineering, and general cyber security issues.
 * [Metasploitable] (https://sourceforge.net/projects/metasploitable/files/Metasploitable2/) - an intentionally vulnerable Linux virtual machine. This VM can be used to conduct security training, test security tools, and practice common penetration testing techniques. 
+* [Protostar] (https://exploit-exercises.com/protostar/)
 
 ####Online Services
 * [TempMail] (https://temp-mail.ru/) - interesting service for creating temporary email for registration during penetration testing
