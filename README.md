@@ -93,6 +93,7 @@ mimikatz # sekurlsa::logonpasswords
 * [Metasploitable] (https://sourceforge.net/projects/metasploitable/files/Metasploitable2/) - an intentionally vulnerable Linux virtual machine. This VM can be used to conduct security training, test security tools, and practice common penetration testing techniques. 
 * [Protostar] (https://exploit-exercises.com/protostar/) - Protostar introduces the following in a friendly way:
 Network programming, Byte order, Handling sockets, Stack overflows, Format strings, Heap overflows.
+* [Narnia] (http://overthewire.org/wargames/narnia) - lab accessed by SSH
 
 ####Online Services
 * [TempMail] (https://temp-mail.ru/) - interesting service for creating temporary email for registration during penetration testing
