@@ -1,0 +1,2 @@
+https://www.digitalocean.com/community/tutorials/how-to-setup-and-configure-an-openvpn-server-on-centos-7
+iptables -t nat -A POSTROUTING -s 10.8.0.0/24 -j SNAT —to-source YOUR SERVER IP
