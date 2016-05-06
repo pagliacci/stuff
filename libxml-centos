@@ -1,0 +1,3 @@
+sudo yum install libxml2 libxml2-devel libxml2-python libxslt libxslt-devel
+
+pip install lxml or easy_install lxml
