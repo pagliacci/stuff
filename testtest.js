@@ -1,12 +1,11 @@
-<div id="div1">
-<p id="p1">This is a paragraph.</p>
-<p id="p2">This is another paragraph.</p>
-</div>
+var foo = {
+  createElement: function(tagname) {
+    if (this._secretvarthatisneeded) {
+      console.log(tagname + " Element Created!");
+    }
+  },
+  _secretvarthatisneeded: true
+}
 
-<script>
-var para = document.createElement("p");
-var node = document.createTextNode("This is new.");
-para.appendChild(node);
-
-var element = document.getElementById("div1");
-element.appendChild(para);
+var bar = foo.createElement;
+bar("bar");
