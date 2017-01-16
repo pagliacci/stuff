@@ -1,6 +1,12 @@
-var e1 = document.CreateElement("input");
-el.type = "text";
-el.name = "myformvar";
+<div id="div1">
+<p id="p1">This is a paragraph.</p>
+<p id="p2">This is another paragraph.</p>
+</div>
 
-var cont = document.GetElementById("formcontent")
-cont.appendChild(e1);
+<script>
+var para = document.createElement("p");
+var node = document.createTextNode("This is new.");
+para.appendChild(node);
+
+var element = document.getElementById("div1");
+element.appendChild(para);
