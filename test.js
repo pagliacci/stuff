@@ -1,4 +1,1 @@
-function test(){
-  alert(11111111);
-}
-
+alert(123123213123);
