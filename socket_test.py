@@ -8,9 +8,9 @@ messages_list = [] #list for recovered and cutted messages
 previous_sample_value = 0
 current_sample_count = 0
 previous_message_string = ""  #to save previous value
-result_string = ""
- 
-dictionary = {
+result_string = "" #string for the result sequence
+#dictionary now include only letters and space 
+dictionary = { 
 	'000000110011001100111000111000011000011000011110011100110011000111100001110001100111111' : 'Q',\
 	'00000011001100110011100011100001100001100001111001110011100011100001111001100001100111111' : 'W',\
 	'00000011001100110011100011100001100001100001111001110011000111100001111000011100111111' : 'E',\
@@ -133,7 +133,7 @@ def recover_miller(current_sample_count, side):    #list for recovered bit seque
 			    message_string = ''.join(message) #as list can't be dictionary key we will create string from list
 			    if message_string in dictionary.keys():
 			    	if message_string != previous_message_string: #not to repeat values
-			    	    if not "release" in dictionary.get(message_string):
+			    	    if not "release" in dictionary.get(message_string): #ignore releases, print only presses
 			    	        result_string += dictionary.get(message_string)
 			    	        print (result_string)
 			    	previous_message_string = message_string  #to save previous value
