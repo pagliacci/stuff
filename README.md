@@ -1,9 +1,9 @@
 # README
 This repo contains some interesting stuff including tools, cheatsheets, articles that can be useful for penetration testing or smth.
 
-###Tools
+### Tools
 
-####Information Gathering
+#### Information Gathering
 * [theHarvester] (http://tools.kali.org/information-gathering/theharvester) - tool used to gather emails, subdomains, hosts, employee names, open ports and banners from different public sources like search engines, PGP key servers and SHODAN computer database.
 * [fierce] (http://tools.kali.org/information-gathering/fierce) - a reconnaissance tool. Fierce is a PERL script that quickly scans domains (usually in just a few minutes, assuming no network lag) using several tactics.
 * [nikto] - one more web application scanner (installed in Kali)
@@ -18,7 +18,7 @@ This repo contains some interesting stuff including tools, cheatsheets, articles
 * **Metasploit** modules:
    * [auxiliary/scanner/netbios/nbname] (https://www.offensive-security.com/metasploit-unleashed/scanner-netbios-auxiliary-modules/) - to enumerate host name
 
-####Exploitation
+#### Exploitation
 * **rinetd** - Port forwarding tool
 ```
 Usage: /etc/rinetd.conf
@@ -38,13 +38,13 @@ linux/x86/shell_reverse_tcp - NON-STAGED reverse tcp shell for Linux
 windows/meterpreter/reverse_https - meterpreter that looks like https traffic
 ```
 
-####Post Exploitation
+#### Post Exploitation
 * **Metasploit modules/payloads:**
 ```
 post/windows/gather/credentials/gpp - Windows Gather Group Policy Preference Saved Passwords
 ```
 
-####Password attacks
+#### Password attacks
 * pwdump - Windows utility that exposes the LM and NTLM password hashes of local user accounts from the Security Account Manager (SAM)
 [Download] (https://www.dropbox.com/s/ixs1ac0xgl245ea/pwdump.zip?dl=0) //
 [Wiki] (https://en.wikipedia.org/wiki/Pwdump)
@@ -58,15 +58,15 @@ mimikatz # sekurlsa::logonpasswords
 
 * Hob0Rules - Password cracking rules for Hashcat based on statistics and industry patterns. [Download] (https://github.com/praetorian-inc/Hob0Rules)
 
-####Password Lists
+#### Password Lists
 * Passwords from Russian resources (collected by @simonuvarov)
 [Download] (https://github.com/simonuvarov/password-lists)
 
-####Utilities
+#### Utilities
 * Plink - console SSH client for Windows.
 [Download] (https://www.dropbox.com/s/g42q3pkrlioym75/plink.exe?dl=0)
 
-####Articles
+#### Articles
 * Basic Linux privilege escalation.
 [Read] (https://blog.g0tmi1k.com/2011/08/basic-linux-privilege-escalation/)
 * Windows Privilege Escalation Fundamentals
@@ -88,14 +88,14 @@ mimikatz # sekurlsa::logonpasswords
 * Introduction to Software Exploits
 [Read] (http://opensecuritytraining.info/Exploits1.html)
 
-####Labs
+#### Labs
 * [Exploit-Exercises] (https://exploit-exercises.com/) - a variety of virtual machines for learning different computer security issues such as privilege escalation, vulnerability analysis, exploit development, debugging, reverse engineering, and general cyber security issues.
 * [Metasploitable] (https://sourceforge.net/projects/metasploitable/files/Metasploitable2/) - an intentionally vulnerable Linux virtual machine. This VM can be used to conduct security training, test security tools, and practice common penetration testing techniques. 
 * [Protostar] (https://exploit-exercises.com/protostar/) - Protostar introduces the following in a friendly way:
 Network programming, Byte order, Handling sockets, Stack overflows, Format strings, Heap overflows.
 * [Narnia] (http://overthewire.org/wargames/narnia) - lab accessed by SSH
 
-####Online Services
+#### Online Services
 * [TempMail] (https://temp-mail.ru/) - interesting service for creating temporary email for registration during penetration testing
 * [RecieveFreeSMS] (http://receivefreesms.com/) - service for receiving SMS during penetration testing
 * [Privatoria] (https://privatoria.net) - service with out-of-box VPN+TOR (3.9$ per month)
