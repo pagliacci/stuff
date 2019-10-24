@@ -52,7 +52,7 @@ From easyelectronics.ru
 50. [AVR. Учебный Курс. Виртуальные порты](http://easyelectronics.ru/avr-uchebnyj-kurs-virtualnye-porty.html)
 51. [AVR. Учебный курс. Делаем АЦП из Аналогового компаратора](http://easyelectronics.ru/avr-uchebnyj-kurs-delaem-acp-iz-analogovogo-komparatora.html)
 52. [Внутрисхемная отладка AVR через JTAG ICE](http://easyelectronics.ru/vnutrisxemnaya-otladka-avr-cherez-jtag-ice.html)
-53. [AVR. Учебный Курс. Программирование на Си. Часть 1](http://easyelectronics.ru/avr-uchebnyj-kurs-programmirovanie-na-si-chast-1.htmlAVR. Учебный Курс. Программирование на Си. Часть 1)
+53. [AVR. Учебный Курс. Программирование на Си. Часть 1](http://easyelectronics.ru/avr-uchebnyj-kurs-programmirovanie-na-si-chast-1.html)
 54. [AVR. Учебный Курс. Программирование на Си. Часть 2.](http://easyelectronics.ru/avr-uchebnyj-kurs-programmirovanie-na-si-chast-2.html)
 55. [AVR. Учебный Курс. Программирование на Си. Часть 3](http://easyelectronics.ru/avr-uchebnyj-kurs-programmirovanie-na-si-chast-3.html)
 56. [AVR. Учебный Курс. Программирование на Си. Часть 4](http://easyelectronics.ru/avr-uchebnyj-kurs-programmirovanie-na-si-chast-4.html)
@@ -67,7 +67,4 @@ From easyelectronics.ru
 65. [AVR. Учебный Курс. Работа на прерываниях](http://easyelectronics.ru/avr-uchebnyj-kurs-rabota-na-preryvaniyax.html)
 66. [Виртуальная машина и байт код](http://easyelectronics.ru/virtualnaya-mashina-i-bajt-kod.html)
 
-
-Дописать первую страницу.
-
-
+// TODO: Дописать первую страницу.
